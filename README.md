@@ -6,7 +6,7 @@
 
 This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-![personal](https://github.com/NIVION-HUB/Face-emotion-detection/face-detect/imgs/personal.jpg)
+![personal](face-detect/imgs/personal.jpg)
 
 ## Dependencies
 
@@ -56,7 +56,7 @@ python emotions.py --mode display
 
 This allows you to run the in real-time face emotion detection using your local camera feed. It open a window displaying the real-time video feed, with detected faces marked by bounding boxes and detected face expressions displayed on top of each boxes.
 
-![Face detection](https://github.com/NIVION-HUB/Face-emotion-detection/face-detect/imgs/seven_emotion.jpeg)
+![Face detection](face-detect/imgs/seven_emotion.jpeg)
 
 - This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
