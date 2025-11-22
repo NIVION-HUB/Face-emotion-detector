@@ -60,7 +60,7 @@ This allows you to run the in real-time face emotion detection using your local 
 
 - This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
-![Accuracy plot](imgs/accuracy.png)
+![Accuracy plot](face-detect/imgs/accuracy.png)
 
 ## Data Preparation (optional)
 
